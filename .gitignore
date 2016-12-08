@@ -1,0 +1,6 @@
+.DS_Store
+.git
+/Gemfile.lock
+*.gemfile.lock
+output/
+tmp/
