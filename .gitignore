@@ -4,3 +4,4 @@
 *.gemfile.lock
 output/
 tmp/
+crash.log
