@@ -2,6 +2,5 @@
 .git
 /Gemfile.lock
 *.gemfile.lock
-output/
 tmp/
 crash.log
