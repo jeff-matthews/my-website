@@ -5,3 +5,9 @@
 tmp/
 output/
 crash.log
+doc/yardoc
+.DS_Store
+*.gem
+/coverage/
+/.yardoc
+*~
