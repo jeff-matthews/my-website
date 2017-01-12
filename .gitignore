@@ -1,0 +1,13 @@
+.DS_Store
+.git
+/Gemfile.lock
+*.gemfile.lock
+tmp/
+output/
+crash.log
+doc/yardoc
+.DS_Store
+*.gem
+/coverage/
+/.yardoc
+*~
