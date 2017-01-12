@@ -1,11 +1,10 @@
-group :nanoc do
-  gem 'guard-nanoc'
-  gem 'adsf'
-  gem 'kramdown'
-
 source 'https://rubygems.org'
 
 gemspec
+
+group :nanoc do
+  gem 'guard-nanoc'
+end
 
 group :devel do
   gem 'contracts', '~> 0.14'
