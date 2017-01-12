@@ -9,8 +9,8 @@ end
 # is not bundled with Nanoc or Ruby.
 
 compile '/**/*.md' do
- filter :kramdown
- layout '/default.*'
+  filter :kramdown
+  layout '/default.*'
 end
 
 route '/**/*.{html,md}' do

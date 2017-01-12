@@ -2,11 +2,19 @@
 
  Requires Ruby
 
- `gem install nanoc`
+  `gem install nanoc`
 
  # Getting Started
 
- `nanoc live` to build locally and deploy to local dev server
+  `nanoc live` to build, deploy to local dev server, and watch for changes
+
+  `nanoc` to build the site
+
+  `nanoc view` to deploy site to local dev server
+
+  `rake` to run tests on .rb file with Rubocop
+
+
 
  May require [https://github.com/guard/guard-nanoc](https://github.com/guard/guard-nanoc)
 

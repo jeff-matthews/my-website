@@ -1,12 +1,10 @@
 source 'https://rubygems.org'
 
-
-
- group :nanoc do
+group :nanoc do
   gem 'guard-nanoc'
- end
+end
 
- group :devel do
+group :devel do
   gem 'contracts', '~> 0.14'
   gem 'coveralls', require: false
   gem 'fuubar'
@@ -29,9 +27,9 @@ source 'https://rubygems.org'
   gem 'webmock'
   gem 'yard'
   gem 'yard-contracts'
- end
+end
 
- group :plugins do
+group :plugins do
   gem 'adsf'
   gem 'bluecloth', platforms: :ruby
   gem 'builder'
@@ -66,4 +64,4 @@ source 'https://rubygems.org'
   gem 'uglifier'
   gem 'w3c_validators'
   gem 'yuicompressor'
- end
+end

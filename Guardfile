@@ -16,11 +16,8 @@
 # and, you'll have to watch "config/Guardfile" instead of "Guardfile"
 
 guard 'nanoc' do
-  watch('nanoc.yaml') # Change this to config.yaml if you use the old config file name
+  # Change this to config.yaml if you use the old config file name
+  watch('nanoc.yaml')
   watch('Rules')
   watch(%r{^(content|layouts|lib)/.*$})
-end
-
-guard 'rake', :task => 'default' do
-  watch(%r{^my_file.rb})
 end
